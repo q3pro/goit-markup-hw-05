@@ -81,6 +81,7 @@ body {
 .head-list {
   display: flex;
   gap: 40px;
+  
 }
 
 .navigation {
