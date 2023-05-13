@@ -573,6 +573,7 @@ body {
 .modal-close-btn:is(:hover, :focus) {
   background-color: #404bbf;
   border: none;
+  fill: #ffffff;
 }
 
 .svg-cloce-modal {
