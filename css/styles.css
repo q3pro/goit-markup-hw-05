@@ -554,13 +554,18 @@ body {
 }
 
 .modal-close-btn {
-  width: 30px;
-  height: 30px;
-  border: 1px solid #999999;
-  background-color: transparent;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  top: 24px;
+  right: 24px;
+  width: 24px;
+  height: 24px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
-  display: block;
-  margin-left: auto;
+  display: flex;
+  background-color: #e7e9fc;
+ 
 }
 
 .is-hidden {
